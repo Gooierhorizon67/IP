@@ -36,7 +36,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="title">Found YA</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">Glowing sunset</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Run before the hackers do! 🏃‍♂️💨</div>', unsafe_allow_html=True)
 
 
