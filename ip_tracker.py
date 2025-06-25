@@ -4,7 +4,7 @@ import datetime
 from streamlit_javascript import st_javascript
 
 # --- Page config and CSS for fun background and style
-st.set_page_config(page_title="🌍 IP Tracker", layout="centered")
+st.set_page_config(page_title="Found YA", layout="centered")
 st.markdown("""
 <style>
     .stApp {
@@ -38,7 +38,7 @@ st.markdown("""
 
 st.markdown('<div class="title">🌍 IP Tracker</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Run before the hackers do! 🏃‍♂️💨</div>', unsafe_allow_html=True)
-st.write("Fetching your real IP address from your browser...")
+
 
 # Get client IP via JS
 ip = st_javascript(
